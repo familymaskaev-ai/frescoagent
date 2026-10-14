@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fresco Agent</title>
+<meta name="description" content="Fresco Agent — an autonomous operations agent that plans, delegates and verifies work toward a single long-term goal.">
+<style>
+  :root {
+    --bg: #fafaf7; --fg: #1d1d1b; --muted: #5f5f58; --line: #e3e2da; --accent: #2f6f5e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141413; --fg: #ecebe4; --muted: #a3a29a; --line: #2c2c29; --accent: #7cc2ac; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 20px 48px; }
+  h1 { font-size: 2.4rem; line-height: 1.15; margin: 0 0 12px; letter-spacing: -0.02em; }
+  .lead { font-size: 1.2rem; color: var(--muted); margin: 0 0 40px; }
+  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin: 44px 0 12px; }
+  ul { padding-left: 1.2em; margin: 0; }
+  li { margin: 6px 0; }
+  .status { display: inline-block; font-size: 0.85rem; border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; color: var(--muted); margin-bottom: 20px; }
+  a { color: var(--accent); }
+  footer { border-top: 1px solid var(--line); margin-top: 56px; padding-top: 20px; font-size: 0.9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <span class="status">In active development</span>
+  <h1>Fresco Agent</h1>
+  <p class="lead">An autonomous operations agent that plans, delegates and verifies work toward one long-term goal — with a human always in control of the rules.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Keeps a single, unlimited task tree with stable hierarchical IDs (1, 1.1, 1.1.1) and works through it breadth-first, one finite unit of work at a time.</li>
+    <li>Assigns each task to a specialist agent — developer, researcher, video producer, fundraiser, communications, watchdog — and records every reassignment.</li>
+    <li>Maintains a deep memory tree that refines and corrects knowledge without ever destroying the original evidence.</li>
+    <li>Marks work as solved only when the task's own success criteria are verified, not just when its subtasks are done.</li>
+  </ul>
+
+  <h2>How it stays safe</h2>
+  <ul>
+    <li>An independent controller with an explicit permission matrix; the agent cannot change its own permissions.</li>
+    <li>Self-improvement only through sandbox, tests, checkpoint and automatic rollback.</li>
+    <li>Model-agnostic core: the language model is chosen manually by a human, never by the agent itself.</li>
+    <li>Idempotent recovery — a restart never repeats an external action like a message, payment or publication.</li>
+    <li>A single HTML control panel showing tasks, memory, agents, questions to the human, logs and permissions.</li>
+  </ul>
+
+  <h2>Why</h2>
+  <p>Fresco Agent is the operational core for Humanity 2.0 — a platform where people propose and vote on ideas that AI agents help bring into the real world. The project is inspired by the resource-based, science-driven thinking of Jacque Fresco.</p>
+
+  <footer>
+    Contact: <a href="mailto:ivan@frescoagent.com">ivan@frescoagent.com</a><br>
+    Independent project; not affiliated with The Venus Project.
+  </footer>
+</main>
+</body>
+</html>
