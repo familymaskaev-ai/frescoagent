@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-# Pages carry noindex until launch.
